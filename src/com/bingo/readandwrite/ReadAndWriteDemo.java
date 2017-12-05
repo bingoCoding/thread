@@ -5,6 +5,10 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
+/**
+ * 读写锁
+ * 读读互不影响，提高读读的效率
+ */
 public class ReadAndWriteDemo {
 
     static Lock lock=new ReentrantLock();

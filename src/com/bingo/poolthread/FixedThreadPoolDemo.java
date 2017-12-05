@@ -3,6 +3,9 @@ package com.bingo.poolthread;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+/**
+ * 固定大小当线程池
+ */
 public class FixedThreadPoolDemo {
 
     public static class T extends Thread{
